@@ -1,5 +1,5 @@
 {% set name = "print-on-steroids" %}
-{% set version = "1.0.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/print-on-steroids-{{ version }}.tar.gz
-  sha256: 6b475428e81c9d530ac4ec76fc9adfa1fe7b3e2f7a66679ce6e9b9724303093f
+  sha256: fde4b96df227319478b49d380c9319a290fe537a06bd29e4fb16adf60358cbab
 
 build:
   noarch: python
